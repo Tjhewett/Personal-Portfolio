@@ -5,30 +5,40 @@ function Projects() {
     {
       title: "Personal Portfolio Website",
       description:
-        "A React and Vite portfolio website built to showcase my background, technical skills, and software development projects as I transition from IT into software development.",
+        "A modern portfolio built with React and Firebase to showcase projects, technical skills, and professional development as I transition into software engineering.",
       tech: ["React", "JavaScript", "Vite", "Firebase"],
       githubLink: "https://github.com/Tjhewett/Personal-Portfolio",
       liveLink: "https://trevdev.web.app",
       status: "In Progress",
     },
     {
-      title: "Sports Betting Application",
+      title: "Lichess Java Application",
       description:
-        "A project focused on sports-related data and application logic. This will be one of my featured portfolio projects as I continue refining it and improving presentation, structure, and usability.",
-      tech: ["Python", "SQL", "Web Development"],
+        "A Java-based chess application that allows users to play locally, stream live games from Lichess, and set custom board states using FEN strings.",
+      tech: ["Java"],
       githubLink: "https://github.com/Tjhewett",
       liveLink: "",
-      status: "Planned Portfolio Feature",
+      status: "Completed",
     },
     {
-      title: "Academic and Personal Development Projects",
+      title: "Binding of Isaac Mod",
       description:
-        "A collection of projects built during college and through independent practice. These include work across Python, Java, C++, databases, and web technologies that I plan to revisit, clean up, and add to this portfolio.",
-      tech: ["Python", "Java", "C++", "SQL", "HTML/CSS"],
+        "A mod built using Java and Lua that integrates with The Binding of Isaac to display real-time item descriptions when encountered during gameplay.",
+      tech: ["Java", "Lua"],
       githubLink: "https://github.com/Tjhewett",
       liveLink: "",
-      status: "Being Refined",
+      status: "Completed",
     },
+    {
+      title: "Sports Betting Application",
+      description:
+        "A full stack application that allows account creation, sign-in, placing practice bets on NFL lines using application currency, bet tracking, mini-game to gain in game currency and NFL statistics for help with bets.",
+      tech: ["React", "Python", "SQL"],
+      githubLink: "https://github.com/Tjhewett",
+      liveLink: "",
+      status: "Completed",
+    },
+
   ];
 
   return (
