@@ -4,6 +4,9 @@ import {
   FaReact,
   FaJs,
   FaDatabase,
+  FaGithub,
+  FaExternalLinkAlt,
+  FaYoutube,
 } from "react-icons/fa";
 import { SiLua, SiFirebase, SiVite } from "react-icons/si";
 
@@ -36,6 +39,7 @@ function ProjectCard({
   tech,
   githubLink,
   liveLink,
+  videoLink,
   status,
 }) {
   return (
@@ -55,14 +59,38 @@ function ProjectCard({
 
       <div className="project-actions">
         {githubLink && (
-          <a href={githubLink} target="_blank" rel="noreferrer" className="btn">
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-outline btn-code"
+          >
+            <FaGithub />
             View Code
           </a>
         )}
 
         {liveLink && (
-          <a href={liveLink} target="_blank" rel="noreferrer" className="btn btn-outline">
+          <a
+            href={liveLink}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-outline"
+          >
+            <FaExternalLinkAlt />
             Live Demo
+          </a>
+        )}
+
+        {videoLink && (
+          <a
+            href={videoLink}
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-outline btn-video"
+          >
+            <FaYoutube />
+            Video Demo
           </a>
         )}
       </div>

@@ -9,6 +9,7 @@ function Projects() {
       tech: ["React", "JavaScript", "Vite", "Firebase"],
       githubLink: "https://github.com/Tjhewett/Personal-Portfolio",
       liveLink: "https://trevdev.web.app",
+      videoLink: "",
       status: "In Progress",
     },
     {
@@ -16,9 +17,10 @@ function Projects() {
       description:
         "A Java-based chess application that allows users to play locally, stream live games from Lichess, and set custom board states using FEN strings.",
       tech: ["Java"],
-      githubLink: "https://github.com/Tjhewett",
+      githubLink: "https://github.com/Tjhewett/lichess-java-application",
       liveLink: "",
-      status: "Completed",
+      videoLink: "",
+      status: "Completed - Updating In Progess",
     },
     {
       title: "Binding of Isaac Mod",
@@ -27,15 +29,17 @@ function Projects() {
       tech: ["Java", "Lua"],
       githubLink: "https://github.com/Tjhewett",
       liveLink: "",
-      status: "Completed",
+      videoLink: "https://www.youtube.com/watch?v=eARMg3RsQNM",
+      status: "Completed - Updating In Progress",
     },
     {
-      title: "Sports Betting Application",
+      title: "Practice Sportsbook App",
       description:
-        "A full stack application that allows account creation, sign-in, placing practice bets on NFL lines using application currency, bet tracking, mini-game to gain in game currency and NFL statistics for help with bets.",
+        "A full-stack web application that simulates a sports betting environment, allowing users to place bets on NFL events using virtual currency, track performance, and analyze real-time statistics.",
       tech: ["React", "Python", "SQL"],
-      githubLink: "https://github.com/Tjhewett",
+      githubLink: "https://github.com/Tjhewett/practice-sportsbook-app",
       liveLink: "",
+      videoLink: "",
       status: "Completed",
     },
 

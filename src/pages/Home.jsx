@@ -8,7 +8,7 @@ function Home() {
           <p className="eyebrow">Aspiring Software Developer</p>
 
           <h1>
-            Hi, I’m <span className="accent-text">Trevor Hewett</span>
+            Hello, I am <span className="accent-text no-wrap">Trevor Hewett</span>
           </h1>
 
           <p className="hero-description">
