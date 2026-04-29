@@ -32,11 +32,11 @@ function Contact() {
             <h2>LinkedIn</h2>
             <p>
               <a
-                href="https://www.linkedin.com/in/trevor-hewett-endi24/"
+                href="https://www.linkedin.com/in/trevorhewett/"
                 target="_blank"
                 rel="noreferrer"
               >
-               linkedin.com/in/trevor-hewett-endi24
+               linkedin.com/in/trevorhewett
               </a>
             </p>
           </div>

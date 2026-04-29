@@ -8,7 +8,7 @@ function About() {
         <div className="content-card">
           <p>
             I graduated with a degree in Computer Science and built projects
-            using Python, Java, C++, SQL, HTML, CSS, PHP, and React. While my
+            using Python, Java, C++, SQL, HTML, CSS, Lua, JavaScript, and React. While my
             current role is in IT, my long-term goal has always been to move
             into software development and build applications professionally.
           </p>

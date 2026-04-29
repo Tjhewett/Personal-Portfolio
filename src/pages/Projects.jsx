@@ -29,7 +29,7 @@ function Projects() {
       tech: ["Java", "Lua"],
       githubLink: "https://github.com/Tjhewett",
       liveLink: "",
-      videoLink: "https://www.youtube.com/watch?v=eARMg3RsQNM",
+      videoLink: "https://youtu.be/T6hG6gxgoSk?si=z0m3EJYELlo-rajF",
       status: "Completed - Updating In Progress",
     },
     {
@@ -40,7 +40,7 @@ function Projects() {
       githubLink: "https://github.com/Tjhewett/practice-sportsbook-app",
       liveLink: "",
       videoLink: "",
-      status: "Completed",
+      status: "Completed - Updating In Progress",
     },
 
   ];

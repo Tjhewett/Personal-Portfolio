@@ -4,8 +4,10 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="container navbar-container">
-        <Link to="/" className="brand">
-          TrevDev
+
+        <Link to="/" className="nav-logo">
+          <img src="/logo.png" alt="TrevDev Logo" className="nav-logo-img" />
+          <span>TrevDev</span>
         </Link>
 
         <nav className="nav-links">
